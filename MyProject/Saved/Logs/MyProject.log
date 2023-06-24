@@ -921,3 +921,135 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.06.24-10.33.22:149][  0]LogFileCache: Scanning file cache for directory 'U:/Github/Summer_Game_Walk/MyProject/Saved/Collections/' took 0.00s
 [2023.06.24-10.33.22:151][  0]LogFileCache: Scanning file cache for directory 'U:/Github/Summer_Game_Walk/MyProject/Content/Developers/Baobab/Collections/' took 0.00s
 [2023.06.24-10.33.22:152][  0]LogFileCache: Scanning file cache for directory 'U:/Github/Summer_Game_Walk/MyProject/Content/Collections/' took 0.00s
+[2023.06.24-10.33.22:605][  0]LogEngine: Initializing Engine...
+[2023.06.24-10.33.22:618][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2023.06.24-10.33.22:638][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.06.24-10.33.22:641][  0]LogMaterial: Display: Missing cached shadermap for WireframeMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: 0E9698C4697E872CBAA750A81F13B17C7CEA9AAD), compiling. Is special engine material.
+[2023.06.24-10.33.22:645][  0]LogMaterial: Display: Missing cached shadermap for LevelColorationLitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: F94896208BB2C48320F28BA2B200D9B09C2924D7), compiling. Is special engine material.
+[2023.06.24-10.33.22:649][  0]LogMaterial: Display: Missing cached shadermap for LevelColorationUnlitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: C69B3513A9BCE1B5877E8C1F14F444F2E516C54A), compiling. Is special engine material.
+[2023.06.24-10.33.22:653][  0]LogMaterial: Display: Missing cached shadermap for MAT_LevelColorationLitLightmapUV in PCD3D_SM6, Default, SM6 (DDC key hash: 6A6B6CA42A1CFE73D98380E44359090BD1019353), compiling. Is special engine material.
+[2023.06.24-10.33.22:657][  0]LogMaterial: Display: Missing cached shadermap for ShadedLevelColorationLitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: 7860C6F9C70533941C3C28714AFF4744F9ACB6BC), compiling. Is special engine material.
+[2023.06.24-10.33.22:661][  0]LogMaterial: Display: Missing cached shadermap for ShadedLevelColorationUnlitMateri in PCD3D_SM6, Default, SM6 (DDC key hash: 8163769FA55201E2D8B7175BC0E56F9348F0AC32), compiling. Is special engine material.
+[2023.06.24-10.33.22:760][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.06.24-10.33.22:776][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.24-10.33.22:800][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.06.24-10.33.22:801][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.06.24-10.33.22:801][  0]LogInit: Texture streaming: Enabled
+[2023.06.24-10.33.22:826][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.1.1-23901901+++UE5+Release-5.1
+[2023.06.24-10.33.22:834][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.06.24-10.33.22:851][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.06.24-10.33.22:852][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.06.24-10.33.22:854][  0]LogAudio: Display: AudioInfo: 'BINKA' Registered
+[2023.06.24-10.33.22:856][  0]LogAudio: Display: AudioInfo: 'PCM' Registered
+[2023.06.24-10.33.22:856][  0]LogAudio: Display: AudioInfo: 'ADPCM' Registered
+[2023.06.24-10.33.22:856][  0]LogAudio: Display: AudioInfo: 'OGG' Registered
+[2023.06.24-10.33.22:856][  0]LogAudio: Display: AudioInfo: 'OPUS' Registered
+[2023.06.24-10.33.22:857][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.06.24-10.33.22:857][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.06.24-10.33.22:857][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.24-10.33.22:857][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.24-10.33.22:857][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.24-10.33.22:857][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.24-10.33.22:857][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.24-10.33.22:857][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.24-10.33.22:857][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.24-10.33.22:857][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.24-10.33.22:857][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.24-10.33.22:857][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.24-10.33.22:857][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.24-10.33.22:863][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.24-10.33.22:895][  0]LogAudioMixer: Display: Using Audio Hardware Device MONITOR L/R (2- Volt 2)
+[2023.06.24-10.33.22:896][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.24-10.33.22:899][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.24-10.33.22:899][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.24-10.33.22:900][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2023.06.24-10.33.22:900][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.06.24-10.33.22:902][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.06.24-10.33.22:902][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2023.06.24-10.33.22:902][  0]LogInit: FAudioDevice initialized.
+[2023.06.24-10.33.22:902][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.06.24-10.33.22:925][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2023.06.24-10.33.22:934][  0]LogLiveCoding: Display: Starting LiveCoding
+[2023.06.24-10.33.22:934][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2023.06.24-10.33.22:935][  0]LogLiveCoding: Display: First instance in process group "UE_MyProject_0xc0358f57", spawning console
+[2023.06.24-10.33.22:944][  0]LogLiveCoding: Display: Waiting for server
+[2023.06.24-10.33.23:874][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2023.06.24-10.33.23:890][  0]LogInit: Transaction tracking system initialized
+[2023.06.24-10.33.23:917][  0]LogSourceControl: Uncontrolled asset enumeration started...
+[2023.06.24-10.33.23:920][  0]LogSourceControl: Uncontrolled asset enumeration finished in 0.002693 seconds (Found 115 uncontrolled assets)
+[2023.06.24-10.33.23:954][  0]BlueprintLog: New page: Editor Load
+[2023.06.24-10.33.24:106][  0]LocalizationService: Localization service is disabled
+[2023.06.24-10.33.24:136][  0]TimingProfiler: Initialize
+[2023.06.24-10.33.24:136][  0]TimingProfiler: OnSessionChanged
+[2023.06.24-10.33.24:136][  0]LoadingProfiler: Initialize
+[2023.06.24-10.33.24:136][  0]LoadingProfiler: OnSessionChanged
+[2023.06.24-10.33.24:136][  0]NetworkingProfiler: Initialize
+[2023.06.24-10.33.24:136][  0]NetworkingProfiler: OnSessionChanged
+[2023.06.24-10.33.24:136][  0]MemoryProfiler: Initialize
+[2023.06.24-10.33.24:137][  0]MemoryProfiler: OnSessionChanged
+[2023.06.24-10.33.24:399][  0]LogFileCache: Scanning file cache for directory 'U:/Github/Summer_Game_Walk/MyProject/Content/' took 0.00s
+[2023.06.24-10.33.24:537][  0]LogEditorDomain: Display: Class /Script/AnimationData.AnimationSequencerDataModel is imported by a package but does not exist in memory. EditorDomain keys for packages using it will be invalid if it still exists.
+	To clear this message, resave packages that use the deleted class, or load its module earlier than the packages that use it are referenced.
+[2023.06.24-10.33.24:640][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2023.06.24-10.33.24:755][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.06.24-10.33.24:758][  0]SourceControl: Source control is disabled
+[2023.06.24-10.33.24:758][  0]LogUnrealEdMisc: Loading editor; pre map load, took 12.082
+[2023.06.24-10.33.24:758][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/OpenWorld.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.06.24-10.33.24:758][  0]LightingResults: New page: Lighting Build
+[2023.06.24-10.33.24:763][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.06.24-10.33.24:763][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.24-10.33.24:763][  0]MapCheck: New page: Map Check
+[2023.06.24-10.33.24:763][  0]LightingResults: New page: Lighting Build
+[2023.06.24-10.33.24:770][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.24-10.33.24:772][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.06.24-10.33.24:778][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2023.06.24-10.33.24:778][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.24-10.33.24:779][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2023.06.24-10.33.24:780][  0]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.06.24-10.33.24:780][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.24-10.33.24:780][  0]LogWorldPartition: UWorldPartition::Initialize(Asset=Untitled_1, IsEditor=1, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.24-10.33.25:137][  0]LogContentBundle: [Container: Untitled_1] Creating new contrainer.
+[2023.06.24-10.33.25:137][  0]LogWorldPartition: Display: WorldPartition initialize took 357 ms
+[2023.06.24-10.33.25:595][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.06.24-10.33.25:711][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.06.24-10.33.25:711][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.06.24-10.33.25:723][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 11.598ms to complete.
+[2023.06.24-10.33.25:723][  0]LogFileHelpers: Loading map 'OpenWorld' took 0.965
+[2023.06.24-10.33.25:731][  0]LogUnrealEdMisc: Total Editor Startup Time, took 13.056
+[2023.06.24-10.33.25:731][  0]LogShaderCompilers: Display: ================================================
+[2023.06.24-10.33.25:731][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.24-10.33.25:731][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.06.24-10.33.25:731][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.06.24-10.33.25:731][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2023.06.24-10.33.25:732][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.24-10.33.25:732][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.06.24-10.33.25:732][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.06.24-10.33.25:732][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.06.24-10.33.25:732][  0]LogShaderCompilers: Display: ================================================
+[2023.06.24-10.33.25:926][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.24-10.33.25:938][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.24-10.33.25:943][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.24-10.33.25:948][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.24-10.33.26:158][  0]LogPakFile: Display: Mounted Pak file 'U:/Unreal/new/UE_5.1/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2023.06.24-10.33.26:160][  0]LogPakFile: Display: Mounted Pak file 'U:/Unreal/new/UE_5.1/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2023.06.24-10.33.26:160][  0]LogPakFile: Display: Mounted Pak file 'U:/Unreal/new/UE_5.1/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2023.06.24-10.33.26:161][  0]LogPakFile: Display: Mounted Pak file 'U:/Unreal/new/UE_5.1/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2023.06.24-10.33.26:162][  0]LogPakFile: Display: Mounted Pak file 'U:/Unreal/new/UE_5.1/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2023.06.24-10.33.26:162][  0]LogPakFile: Display: Mounted Pak file 'U:/Unreal/new/UE_5.1/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2023.06.24-10.33.26:162][  0]LogPakFile: Display: Mounted Pak file 'U:/Unreal/new/UE_5.1/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2023.06.24-10.33.26:163][  0]LogPakFile: Display: Mounted Pak file 'U:/Unreal/new/UE_5.1/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2023.06.24-10.33.26:164][  0]LogPakFile: Display: Mounted Pak file 'U:/Unreal/new/UE_5.1/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2023.06.24-10.33.26:164][  0]LogPakFile: Display: Mounted Pak file 'U:/Unreal/new/UE_5.1/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2023.06.24-10.33.27:355][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.06.24-10.33.27:366][  0]LogSlate: Took 0.005177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.06.24-10.33.27:372][  0]LogSlate: Took 0.004779 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.06.24-10.33.27:396][  0]LogViewport: Scene viewport resized to 1526x902, mode Windowed.
+[2023.06.24-10.33.28:173][  0]LogStall: Startup...
+[2023.06.24-10.33.28:175][  0]LogStall: Startup complete.
+[2023.06.24-10.33.28:202][  0]LogLoad: (Engine Initialization) Total time: 15.53 seconds
+[2023.06.24-10.33.28:202][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.06.24-10.33.28:331][  0]LogAssetRegistry: Asset discovery search completed in 10.7255 seconds
+[2023.06.24-10.33.28:340][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
+[2023.06.24-10.33.28:344][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.06.24-10.33.28:383][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.06.24-10.33.33:202][191]LogShaderCompilers: Display: FShaderCompileThreadRunnable::WriteNewTasks() took too long (0.550 seconds, threshold is 0.300 s), will parallelize next time.
